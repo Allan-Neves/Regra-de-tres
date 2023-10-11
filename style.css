@@ -30,6 +30,7 @@ body {
 .calculadora {
     background-color: var(--cor-neutra-3);
     padding: 20px;
+    margin: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.323);
     border-radius: 8px;
     color: var(--cor-neutra-1);
@@ -49,7 +50,7 @@ body {
 .input-group input {
     background-color: var(--cor-neutra-2);
     border: 1px solid var(--cor-principal-1);
-    padding: 10px;
+    padding: 15px 10px;
     border-radius: 8px;
     width: 100px;
     font-size: 16px;
@@ -72,7 +73,7 @@ body {
 
 #resultado {
     background: var(--linear-gradient);
-    padding: 10px;
+    padding: 15px 10px;
     width: 100px;
     border-radius: 8px;
 }
@@ -92,4 +93,10 @@ body {
 
 #calcular:hover {
     background-color: var(--cor-principal-2);
+}
+
+@media screen and (max-width: 325px) {
+    .input-group input, #resultado  {
+        width: 30%;
+    }
 }
