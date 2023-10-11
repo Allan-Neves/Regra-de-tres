@@ -14,7 +14,7 @@ Esse é um código que eu fiz com o auxílio do tutorial da [Larissa Kich](https
 
 ## Aprendizados
 
-Este projeto foi bem simples de se fazer, fiz o uso básico de lógica, e deu certo!
+Este projeto foi bem simples de se fazer, fiz o uso básico de regras de três apenas.
 
 ## Como Executar o Projeto
 
